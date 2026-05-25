@@ -7,12 +7,8 @@
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
-/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 </head>
 <body>
     <header class="cabecalho"> 
@@ -60,14 +56,68 @@
 
         <div class="swiper-wrapper">
             <!-- Slides -->
-            <div class="swiper-slide"> <img src=""></div>
-            ...
+            <div class="swiper-slide"> <img src="./fotos/foto2.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto3.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto4.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto5.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto6.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto7.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto8.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto9.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto10.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto11.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto12.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto13.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto14.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto15.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto16.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto17.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto18.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto19.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto20.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto21.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto22.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto23.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto24.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto25.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto26.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto27.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto28.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto32.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto29.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto30.jpg"></div>
+            <div class="swiper-slide"> <img src="./fotos/foto31.jpg"></div>
         </div>
         </div>
 
 
     </section>
 
+    <footer>
+        2026 - Guilherme e Éllida
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            slidesPerView:2,
+            spaceBetween: 10,
+            loop:true,
+            breakpoints: {
+                600: {
+                    loop:true,
+                    slidesPerView: 3,
+                    spaceBetween: 15,
+                }
+            }
+            });
+    </script>
 </body>
 </html>
